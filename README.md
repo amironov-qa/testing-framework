@@ -1,3 +1,5 @@
 # testing-framework
 
-1. Junit 5 tests using Selenium WebDriver
+1. UI tests using Selenium and JUnit 5;
+2. UI tests using Selenium and Cucumber Framework
+3. RestAPI tests using RestAssured library
