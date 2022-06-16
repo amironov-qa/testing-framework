@@ -1,4 +1,5 @@
-import org.junit.jupiter.api.BeforeEach;
+package unit_tests;
+
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
