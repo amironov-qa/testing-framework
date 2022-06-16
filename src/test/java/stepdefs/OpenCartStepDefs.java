@@ -31,7 +31,7 @@ public class OpenCartStepDefs {
         var privacyPolicy = driver.findElement(By.name("agree"));
         var continueButton = driver.findElement(By.xpath("//*[@id=\"form-register\"]/div/div/button"));
 
-        firstName.sendKeys(getRandomAlphanumeric((10)));
+        firstName.sendKeys(getRandomAlphanumeric(10));
         lastName.sendKeys(getRandomAlphanumeric(10));
         email.sendKeys(getRandomEmail(10));
         password.sendKeys(getRandomNumeric(10));
