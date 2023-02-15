@@ -15,7 +15,7 @@ public class PropertyManager {
 
         } catch (IOException ex) {
             ex.printStackTrace();
-            System.out.println("Cannot find property file! ");
+            System.out.println("Cannot find property file! ");  //todo: logger will be used
         }
     }
 

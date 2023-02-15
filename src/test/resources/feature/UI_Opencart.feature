@@ -1,4 +1,4 @@
-@OPENCART
+@ui
 Feature: Opencart
 
   Scenario: Register a new account
