@@ -1,3 +1,4 @@
+@api
 Feature: Rest Assured Example
 
   Scenario: Get all products
@@ -15,10 +16,10 @@ Feature: Rest Assured Example
 
   Scenario: Update product by id
     When product by id is updated
-      | 62b9c2e92b41542118c58387 |
+      | 62ba2f07147daf00c53d9e95 |
     Then status code is 200
 
   Scenario: Delete product by id
     When product by id is deleted
-      | 62b9c2e92b41542118c58387 |
+      | 62ba2f07147daf00c53d9e95 |
     Then status code is 200

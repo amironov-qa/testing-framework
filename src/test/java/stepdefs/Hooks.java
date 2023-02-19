@@ -1,15 +1,16 @@
 package stepdefs;
 
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.BeforeAll;
-import utils.Driver;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+import static utils.SingletonDriver.quitDriver;
 
 public class Hooks {
-    @BeforeAll
+    @Before
     public static void beforeAll() {
     }
-    @AfterAll
+    @After("@ui")
     public static void afterAll() {
-        Driver.quit();
+        quitDriver();
     }
 }
